@@ -1,0 +1,130 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  background-color: #fff;
+}
+
+ul.nav, .jumbotron h1 {
+    font-family: 'Arvo',courier, serif;
+}
+ul.nav {
+  font-size: 13px;
+  color: #fffaf0;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: center -500px;
+  background-attachment: fixed;
+  color: #fffaf0;
+}
+.jumbotron h1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.jumbotron p, .container p {
+  font-family: 'Source Sans Pro',courier, sans-serif;
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.btn {
+  font-size: 36px;
+}
+.row {
+  text-align: center;
+}
+.col-md-4 h2 {
+  padding-bottom: 15px;
+
+}
+.col-md-4 img {
+  padding-bottom: 30px;
+  width: 40%;
+  display: inline-block;
+}
+.container p {
+  text-align: center;
+  font-size: 36px;
+}
+.container h2, .container h3 {
+color: #d9534f;
+font-family: 'Source Sans Pro',courier, sans-serif;
+}
+.container h2 {
+
+  text-transform: uppercase;
+  text-align: center;
+}
+.homepage .btn {
+  color: #d9534f;
+  font-size: 24px;
+  transition: ease 0.3s;
+}
+.homepage .btn:hover {
+  background-color: #d9534f;
+  color: #fff;
+  font-size: 24px;
+}
+.involvedline {
+  border-color: #d9534f;
+  width: 140px;
+  margin-top: 10px;
+}
+.homepage p {
+  text-align: center;
+  font-size: 16px;
+}
+.homepage {
+  text-align: center;
+  padding-top: 10px;
+}
+#get-involved {
+  background-color: #f5f5f5;
+}
+#abilities {
+  background-color:#ffdddd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact-me h2 {
+  color: #131313;
+  text-align: left;
+  font-size: 26px;
+}
+.contact-me p {
+  color: #131313;
+  text-align: left;
+}
+.contact-me .btn {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.butt {
+  text-align: left;
+  padding-top: 80px;
+}
+
+.contact-me {
+  text-align: left;
+  font-size: 16px;
+}
+.copy {
+  color: #131313;
+  font-family: 'Source Sans Pro',courier, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+
+#contact {
+  background-color: #e54c4c;
+
+
+}
